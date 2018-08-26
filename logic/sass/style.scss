@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #145587;
+}
+
+.wrapper-max {
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 650px;
+    width: 100%;
+}
+
+.wrapper_submit {
+    max-width: 650px !important;
+    width: 100%;
+}
+
+.flex-ac {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-dcc {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login p {
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color:#00B6EF;
+}
+
+.container {
+    max-width: 950px;
+    position: relative;
+}
+
+.info-page {
+    position: relative;
+    margin: 0 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #00B6EF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.form {
+    max-width: 300px;
+    width: 100%;
+    transition: 1s ease;
+    -webkit-transition: 1s ease; 
+}
+
+form {
+    input {
+        margin: 10px 0 10px 0;
+        padding-left: 15px;
+        width: 285px;
+        height: 2.85rem;
+        border:1px solid #00B6EF;
+        color: #145587;
+        border-radius: 100px;
+        font-size: 14px;
+    }
+
+    input::-moz-placeholder {
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #00B6EF;
+    }
+
+    input::-webkit-input-placeholder{
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #00B6EF;
+    }
+
+    input[type="submit"] {
+        margin-left: 50%;
+        position: relative;
+        left: -100px;
+        width: 200px;
+        padding: 0;
+        color: #00B6EF;
+        background-color: white;
+        cursor: pointer;
+
+        &:hover {
+            color: white;
+            background: #00B6EF;
+        }
+    }
+}
+
+
+.loading {
+    display: none;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size:14px;
+}
+
+.container-form {
+    margin: 0 auto;
+    justify-content: space-around;
+
+    .registr .container,
+.logIn .container {
+    display:none;
+}
+    
+}
+
